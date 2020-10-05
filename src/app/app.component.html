@@ -1,0 +1,5 @@
+<ag-grid-angular class="ag-theme-balham" style="width: 100%;height: 100%;" #grid [columnDefs]="fileColumnDefs" [rowData]="fileRowData"
+ [enableSorting]="true" [pagination]="true" [enableColResize]="true" [gridOptions]="fileGridOptions" [headerHeight]="38"
+ (gridReady)="fileGridApi=$event.api"></ag-grid-angular>
+ 
+  <!-- (rowSelected)="onRowClick($event)" (rowGroupOpened)="onExpandChange($event)" -->
